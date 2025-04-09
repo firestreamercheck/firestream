@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # Dicionário com chaves de exemplo
 LICENSAS = {
-    "ABC123": {"ativa_em": "2024-12-10", "dias_validade": 10},
-    "XYZ789": {"ativa_em": "2025-04-01", "dias_validade": 30},
+    "FOGO10": {"ativa_em": "2025-04-09", "dias_validade": 10},
+    "FOGO30": {"ativa_em": "2025-04-09", "dias_validade": 30},
 }
 
 @app.route("/", methods=["GET"])
