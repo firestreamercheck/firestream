@@ -4,7 +4,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 LICENSAS = {
-    "FOGO10": {"ativa_em": "2025-04-08", "dias_validade": 10},
+    "FOGO10": {"ativa_em": "2025-04-08", "dias_validade": 20},
     "FOGO30": {"ativa_em": "2025-04-09", "dias_validade": 30},
 }
 
